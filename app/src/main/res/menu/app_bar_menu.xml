@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    >
+
+
+    <item android:id="@+id/action_menu"
+        android:title="@string/userMenu"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_report"
+        android:title="@string/userReport"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_ammo_calibration"
+        android:title="@string/ammoCalibration"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/action_water_calibration"
+        android:title="@string/waterCalibration"
+        app:showAsAction="never" />
+
+
+
+
+
+
+</menu>

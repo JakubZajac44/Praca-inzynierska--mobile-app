@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="9">
+
+
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChartWater"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+
+        />
+
+    <TextView
+        android:id="@+id/waterDetailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:text="@string/detailsWaterLevel" />
+
+
+
+    <Button
+        android:id="@+id/clearDbButtonWater"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/clearDb"
+        android:layout_gravity="right"
+        style="@style/button"
+        android:background="@drawable/button_background"/>
+
+
+</LinearLayout>
